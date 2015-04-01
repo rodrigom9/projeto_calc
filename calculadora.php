@@ -10,7 +10,7 @@ if(isset($_POST['numero1']))
 {
 $soma = $_POST['numero1'] - $_POST['numero2'];
 
-
+echo "O Resultado da subtração será ". $soma;
 
 }
 
